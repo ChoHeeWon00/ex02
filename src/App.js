@@ -1,25 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Ex04Con from './containers/Ex04Con';
+import Ex05Con from './containers/Ex05Con';
+import Quiz03StoreCon from './containers/Quiz03StoreCon';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return (<>
+  <Quiz03StoreCon />
+  <hr />
+    <Ex05Con />
+  <hr />
+    <Ex04Con />
+  </>);
 }
 
 export default App;
